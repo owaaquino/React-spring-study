@@ -89,12 +89,12 @@ function ComponentRender() {
     </div>
 
     <div className="board">
-      <p>Fade In text opacity, going up</p>
+      <p>Fade In text opacity, going down</p>
     <div className="textBoard">
-      <animated.h1 style={slideUp}>Text Here</animated.h1>
+      <animated.h1 style={slideDown}>Text Here</animated.h1>
       <div className="two-cols">
-      <animated.p style={slideUp}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis tempus magna. Maecenas et urna libero. Aliquam eget cursus justo. Quisque urna tortor, feugiat at nunc vel, vestibulum aliquet orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quis ex felis. Suspendisse vel vestibulum ipsum, nec egestas sapien.</animated.p>
-      <animated.p style={slideUp}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis tempus magna. Maecenas et urna libero. Aliquam eget cursus justo. Quisque urna tortor, feugiat at nunc vel, vestibulum aliquet orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quis ex felis. Suspendisse vel vestibulum ipsum, nec egestas sapien.</animated.p>
+      <animated.p style={slideDown}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis tempus magna. Maecenas et urna libero. Aliquam eget cursus justo. Quisque urna tortor, feugiat at nunc vel, vestibulum aliquet orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quis ex felis. Suspendisse vel vestibulum ipsum, nec egestas sapien.</animated.p>
+      <animated.p style={slideDown}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis tempus magna. Maecenas et urna libero. Aliquam eget cursus justo. Quisque urna tortor, feugiat at nunc vel, vestibulum aliquet orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quis ex felis. Suspendisse vel vestibulum ipsum, nec egestas sapien.</animated.p>
       </div>
     </div>
     </div>
@@ -113,9 +113,19 @@ function ComponentRender() {
     <div className="board">
       <p>Fade In text opacity, going left</p>
     <div className="textBoard">
-      <animated.h1 style={slideToRight}>Text Here</animated.h1>
+      <animated.h1 style={slideToLeft}>Text Here</animated.h1>
       <div className="two-cols">
       <animated.p style={slideToLeft}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis tempus magna. Maecenas et urna libero. Aliquam eget cursus justo. Quisque urna tortor, feugiat at nunc vel, vestibulum aliquet orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quis ex felis. Suspendisse vel vestibulum ipsum, nec egestas sapien.</animated.p>
+      <animated.p style={slideToLeft}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis tempus magna. Maecenas et urna libero. Aliquam eget cursus justo. Quisque urna tortor, feugiat at nunc vel, vestibulum aliquet orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quis ex felis. Suspendisse vel vestibulum ipsum, nec egestas sapien.</animated.p>
+      </div>
+    </div>
+    </div>
+
+    <div className="board">
+      <p>Fade In text opacity, 1st column going right, 2nd column going left</p>
+    <div className="textBoard">
+      <div className="two-cols">
+      <animated.p style={slideToRight}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis tempus magna. Maecenas et urna libero. Aliquam eget cursus justo. Quisque urna tortor, feugiat at nunc vel, vestibulum aliquet orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quis ex felis. Suspendisse vel vestibulum ipsum, nec egestas sapien.</animated.p>
       <animated.p style={slideToLeft}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis tempus magna. Maecenas et urna libero. Aliquam eget cursus justo. Quisque urna tortor, feugiat at nunc vel, vestibulum aliquet orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quis ex felis. Suspendisse vel vestibulum ipsum, nec egestas sapien.</animated.p>
       </div>
     </div>
