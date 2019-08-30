@@ -5,8 +5,10 @@ import ComponentTriggered from './components/ComponentTriggered';
 
 function App() {
   return (
-    // <ComponentRender />
+    <>
+    <ComponentRender />
     <ComponentTriggered />
+    </>
   );
 }
 
